@@ -1,0 +1,14 @@
+(print (car (list 1 2 3)))
+(sync)
+(print (car (list (list 1 2 3 4) 2 3)))
+(sync)
+(print (cdr (car (list (list 1 2 3)))))
+(sync)
+(print (append (list) (list 1 2 3)))
+(sync)
+(print (append (list) (list)))
+(sync)
+(print (append (list 1 2) (cdr (cdr (list 1 2 3 4 5 6)))))
+(sync)
+
+
